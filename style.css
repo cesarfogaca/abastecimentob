@@ -1,0 +1,96 @@
+* { 
+    margin: 0;
+    padding: 0;
+  }
+
+  #title, #subtitle {
+    font-family: sans-serif;
+    color: rgb(22, 22, 22);
+  }
+  
+
+
+  #subtitle {
+    font-size: 13.5px;
+  }
+  
+  #title {
+    margin-left: 0%;
+  }
+  
+  #subtitle {
+    margin-left: 0%;
+  }
+  
+  fieldset {
+    border: 0;
+  }
+  
+  fieldset .grupo .campo {
+    float: left;
+    margin-right: 1em;
+  }
+  
+  body {
+    background-color: rgb(222, 239, 253);
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #000000;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  
+  
+  .campo {
+    margin-bottom: .15em;
+  }
+  
+  .campo label {
+    margin-bottom: .2em;
+    color: #000011;
+    display: block;
+  }
+  
+  .campo input[type="text"], .campo input[type="number"],  .campo input[type="email"], .campo select, .campo textarea {
+    border: 1px solid #353535;
+    display: block;
+    padding: 5px 25px;
+    border-style: solid;
+    border-radius: 10px;
+  }
+  
+  .campo select option {
+    padding-right: 0em;
+    color: #000000;
+  }
+  
+  .campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #ffffff;
+  }
+  
+  #checkbox {
+    display: inline-block;
+  }
+  
+  textarea {
+    width: 90em;
+  }
+
+
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #1a46d8;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 30px;
+    text-decoration: none;
+    margin: 2px 390px;
+    cursor: pointer;
+  }
+
+  input[type="radio"]{
+    margin: 0 10px 0 10px;
+  }
